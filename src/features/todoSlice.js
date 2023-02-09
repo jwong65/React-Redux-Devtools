@@ -7,7 +7,10 @@ export const todoReducer =createSlice({
     name: 'todo',
     initialState,
     reducers: {
-        
+        addTodo:(state)=>{
+            return{value: state}
+        }
+
     }
 
 

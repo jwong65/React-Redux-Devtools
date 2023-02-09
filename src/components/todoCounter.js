@@ -1,11 +1,14 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 
-export default function todoCounter() {
+export default function TodoCounter() {
   return (
-    <form>
-        <input type='text'></input>
-        <button type='submit'>Submit ToDo</button>
-    </form>
+    <div>    
+        <form>
+            <input type='text'></input>
+            <button type='submit'>Submit ToDo</button>
+        </form>
+    </div>
+
   )
 }
