@@ -15,5 +15,5 @@ export const todoReducer =createSlice({
 
 
 })
-
+export const {addTodo} = todoReducer.actions
 export default todoReducer.reducer
