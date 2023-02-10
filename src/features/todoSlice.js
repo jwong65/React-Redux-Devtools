@@ -8,7 +8,7 @@ export const todoReducer =createSlice({
     initialState,
     reducers: {
         addTodo:(state)=>{
-            return{value: state}
+            return{items: [...state.items]}
         }
 
     }
